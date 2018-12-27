@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BBD70D21D4E5A900BE1689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD70C21D4E5A900BE1689 /* AppDelegate.swift */; };
+		F1BBD70F21D4E5A900BE1689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD70E21D4E5A900BE1689 /* ViewController.swift */; };
+		F1BBD71121D4E5AA00BE1689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BBD71021D4E5AA00BE1689 /* Assets.xcassets */; };
+		F1BBD71421D4E5AA00BE1689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BBD71221D4E5AA00BE1689 /* Main.storyboard */; };
+		F1BBD72021D4E5AB00BE1689 /* SumithColorConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD71F21D4E5AB00BE1689 /* SumithColorConverterTests.swift */; };
+		F1BBD72B21D4E5AB00BE1689 /* SumithColorConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BBD72A21D4E5AB00BE1689 /* SumithColorConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BBD71C21D4E5AB00BE1689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BBD70121D4E5A900BE1689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BBD70821D4E5A900BE1689;
+			remoteInfo = SumithColorConverter;
+		};
+		F1BBD72721D4E5AB00BE1689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BBD70121D4E5A900BE1689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BBD70821D4E5A900BE1689;
+			remoteInfo = SumithColorConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1BBD70921D4E5A900BE1689 /* SumithColorConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumithColorConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BBD70C21D4E5A900BE1689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1BBD70E21D4E5A900BE1689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1BBD71021D4E5AA00BE1689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BBD71321D4E5AA00BE1689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1BBD71521D4E5AA00BE1689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BBD71621D4E5AA00BE1689 /* SumithColorConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SumithColorConverter.entitlements; sourceTree = "<group>"; };
+		F1BBD71B21D4E5AB00BE1689 /* SumithColorConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumithColorConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BBD71F21D4E5AB00BE1689 /* SumithColorConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumithColorConverterTests.swift; sourceTree = "<group>"; };
+		F1BBD72121D4E5AB00BE1689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BBD72621D4E5AB00BE1689 /* SumithColorConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumithColorConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BBD72A21D4E5AB00BE1689 /* SumithColorConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumithColorConverterUITests.swift; sourceTree = "<group>"; };
+		F1BBD72C21D4E5AB00BE1689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BBD70621D4E5A900BE1689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD71821D4E5AA00BE1689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD72321D4E5AB00BE1689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BBD70021D4E5A900BE1689 = {
+			isa = PBXGroup;
+			children = (
+				F1BBD70B21D4E5A900BE1689 /* SumithColorConverter */,
+				F1BBD71E21D4E5AB00BE1689 /* SumithColorConverterTests */,
+				F1BBD72921D4E5AB00BE1689 /* SumithColorConverterUITests */,
+				F1BBD70A21D4E5A900BE1689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BBD70A21D4E5A900BE1689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BBD70921D4E5A900BE1689 /* SumithColorConverter.app */,
+				F1BBD71B21D4E5AB00BE1689 /* SumithColorConverterTests.xctest */,
+				F1BBD72621D4E5AB00BE1689 /* SumithColorConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BBD70B21D4E5A900BE1689 /* SumithColorConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F1BBD70C21D4E5A900BE1689 /* AppDelegate.swift */,
+				F1BBD70E21D4E5A900BE1689 /* ViewController.swift */,
+				F1BBD71021D4E5AA00BE1689 /* Assets.xcassets */,
+				F1BBD71221D4E5AA00BE1689 /* Main.storyboard */,
+				F1BBD71521D4E5AA00BE1689 /* Info.plist */,
+				F1BBD71621D4E5AA00BE1689 /* SumithColorConverter.entitlements */,
+			);
+			path = SumithColorConverter;
+			sourceTree = "<group>";
+		};
+		F1BBD71E21D4E5AB00BE1689 /* SumithColorConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BBD71F21D4E5AB00BE1689 /* SumithColorConverterTests.swift */,
+				F1BBD72121D4E5AB00BE1689 /* Info.plist */,
+			);
+			path = SumithColorConverterTests;
+			sourceTree = "<group>";
+		};
+		F1BBD72921D4E5AB00BE1689 /* SumithColorConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BBD72A21D4E5AB00BE1689 /* SumithColorConverterUITests.swift */,
+				F1BBD72C21D4E5AB00BE1689 /* Info.plist */,
+			);
+			path = SumithColorConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BBD70821D4E5A900BE1689 /* SumithColorConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BBD72F21D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverter" */;
+			buildPhases = (
+				F1BBD70521D4E5A900BE1689 /* Sources */,
+				F1BBD70621D4E5A900BE1689 /* Frameworks */,
+				F1BBD70721D4E5A900BE1689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumithColorConverter;
+			productName = SumithColorConverter;
+			productReference = F1BBD70921D4E5A900BE1689 /* SumithColorConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BBD71A21D4E5AA00BE1689 /* SumithColorConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BBD73221D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverterTests" */;
+			buildPhases = (
+				F1BBD71721D4E5AA00BE1689 /* Sources */,
+				F1BBD71821D4E5AA00BE1689 /* Frameworks */,
+				F1BBD71921D4E5AA00BE1689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BBD71D21D4E5AB00BE1689 /* PBXTargetDependency */,
+			);
+			name = SumithColorConverterTests;
+			productName = SumithColorConverterTests;
+			productReference = F1BBD71B21D4E5AB00BE1689 /* SumithColorConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1BBD72521D4E5AB00BE1689 /* SumithColorConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BBD73521D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverterUITests" */;
+			buildPhases = (
+				F1BBD72221D4E5AB00BE1689 /* Sources */,
+				F1BBD72321D4E5AB00BE1689 /* Frameworks */,
+				F1BBD72421D4E5AB00BE1689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BBD72821D4E5AB00BE1689 /* PBXTargetDependency */,
+			);
+			name = SumithColorConverterUITests;
+			productName = SumithColorConverterUITests;
+			productReference = F1BBD72621D4E5AB00BE1689 /* SumithColorConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BBD70121D4E5A900BE1689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sumith Kumar";
+				TargetAttributes = {
+					F1BBD70821D4E5A900BE1689 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F1BBD71A21D4E5AA00BE1689 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F1BBD70821D4E5A900BE1689;
+					};
+					F1BBD72521D4E5AB00BE1689 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F1BBD70821D4E5A900BE1689;
+					};
+				};
+			};
+			buildConfigurationList = F1BBD70421D4E5A900BE1689 /* Build configuration list for PBXProject "SumithColorConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BBD70021D4E5A900BE1689;
+			productRefGroup = F1BBD70A21D4E5A900BE1689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BBD70821D4E5A900BE1689 /* SumithColorConverter */,
+				F1BBD71A21D4E5AA00BE1689 /* SumithColorConverterTests */,
+				F1BBD72521D4E5AB00BE1689 /* SumithColorConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BBD70721D4E5A900BE1689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BBD71121D4E5AA00BE1689 /* Assets.xcassets in Resources */,
+				F1BBD71421D4E5AA00BE1689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD71921D4E5AA00BE1689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD72421D4E5AB00BE1689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BBD70521D4E5A900BE1689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BBD70F21D4E5A900BE1689 /* ViewController.swift in Sources */,
+				F1BBD70D21D4E5A900BE1689 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD71721D4E5AA00BE1689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BBD72021D4E5AB00BE1689 /* SumithColorConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BBD72221D4E5AB00BE1689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BBD72B21D4E5AB00BE1689 /* SumithColorConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BBD71D21D4E5AB00BE1689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BBD70821D4E5A900BE1689 /* SumithColorConverter */;
+			targetProxy = F1BBD71C21D4E5AB00BE1689 /* PBXContainerItemProxy */;
+		};
+		F1BBD72821D4E5AB00BE1689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BBD70821D4E5A900BE1689 /* SumithColorConverter */;
+			targetProxy = F1BBD72721D4E5AB00BE1689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1BBD71221D4E5AA00BE1689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BBD71321D4E5AA00BE1689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BBD72D21D4E5AB00BE1689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1BBD72E21D4E5AB00BE1689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F1BBD73021D4E5AB00BE1689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SumithColorConverter/SumithColorConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F1BBD73121D4E5AB00BE1689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SumithColorConverter/SumithColorConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		F1BBD73321D4E5AB00BE1689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumithColorConverter.app/Contents/MacOS/SumithColorConverter";
+			};
+			name = Debug;
+		};
+		F1BBD73421D4E5AB00BE1689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumithColorConverter.app/Contents/MacOS/SumithColorConverter";
+			};
+			name = Release;
+		};
+		F1BBD73621D4E5AB00BE1689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SumithColorConverter;
+			};
+			name = Debug;
+		};
+		F1BBD73721D4E5AB00BE1689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7M54NS6B69;
+				INFOPLIST_FILE = SumithColorConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pacy.SumithColorConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = SumithColorConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BBD70421D4E5A900BE1689 /* Build configuration list for PBXProject "SumithColorConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BBD72D21D4E5AB00BE1689 /* Debug */,
+				F1BBD72E21D4E5AB00BE1689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BBD72F21D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BBD73021D4E5AB00BE1689 /* Debug */,
+				F1BBD73121D4E5AB00BE1689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BBD73221D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BBD73321D4E5AB00BE1689 /* Debug */,
+				F1BBD73421D4E5AB00BE1689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BBD73521D4E5AB00BE1689 /* Build configuration list for PBXNativeTarget "SumithColorConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BBD73621D4E5AB00BE1689 /* Debug */,
+				F1BBD73721D4E5AB00BE1689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BBD70121D4E5A900BE1689 /* Project object */;
+}
